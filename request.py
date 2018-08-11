@@ -3,7 +3,7 @@
 
 import requests
 
-url = "www.baidu.com"
+url = "http://www.baidu.com"
 req = requests.get(url)
 txt = req.text
 print(txt)
